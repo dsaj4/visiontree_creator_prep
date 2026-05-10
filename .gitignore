@@ -1,0 +1,9 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Local generated archives
+*.zip
+
