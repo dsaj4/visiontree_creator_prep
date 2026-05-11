@@ -2,6 +2,7 @@
 
 - 模板 ID：`tool-garden-gpt-image-2`
 - content-system templateId：`tool-garden-gpt-image-2`
+- 标签：工具 / 流程
 - 来源 Skill：`gpt-image-2`
 - 来源版本：`1.0.3`
 - 来源链接：<https://github.com/ConardLi/garden-skills/tree/main/skills/gpt-image-2>
@@ -29,6 +30,7 @@
   - 使用方式：在创作者 brief 中引用本工具时，应附上图片用途、目标账号、核心信息、可出现和不可出现的文字、是否允许虚构视觉元素。
   - 同步边界：这是准备区的工具型模板，不代表 `content-system` 已具备图像生成能力。
 - resources：
+  - 来源资料：【GPT-Image2 完全指南：一期讲透主流玩法（附我的生图 Skill）】<https://www.bilibili.com/video/BV1vi9UBhEKq/?share_source=copy_web&vd_source=c3f2a17dce62359215ab1773410de02b>
   - <https://github.com/ConardLi/garden-skills/tree/main/skills/gpt-image-2>
   - `skills/gpt-image-2/SKILL.md`
   - `skills/gpt-image-2/references/prompt-writing.md`

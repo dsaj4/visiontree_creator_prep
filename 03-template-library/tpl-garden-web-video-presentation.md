@@ -2,6 +2,7 @@
 
 - 模板 ID：`tpl-garden-web-video-presentation`
 - content-system templateId：`tpl-garden-web-video-presentation`
+- 标签：工具 / 流程
 - 来源 Skill：`web-video-presentation`
 - 来源版本：`1.1.3`
 - 来源链接：<https://github.com/ConardLi/garden-skills/tree/main/skills/web-video-presentation>
@@ -29,6 +30,7 @@
   - 使用方式：在创作者 brief 中引用本模板时，应附上原文、口播方向、推荐主题、需要准备的图片或数据素材。
   - 同步边界：这里只记录创作准备模板，不复制完整脚手架代码到 `content-system`。
 - resources：
+  - 来源资料：【Harness 实践：让 Agent 全自动制作知识讲解视频】<https://www.bilibili.com/video/BV1ypdgBCE9B/?share_source=copy_web&vd_source=c3f2a17dce62359215ab1773410de02b>
   - <https://github.com/ConardLi/garden-skills/tree/main/skills/web-video-presentation>
   - `skills/web-video-presentation/SKILL.md`
   - `skills/web-video-presentation/references/SCRIPT-STYLE.md`

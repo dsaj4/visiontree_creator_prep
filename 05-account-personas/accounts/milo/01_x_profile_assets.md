@@ -3,16 +3,21 @@
 - accountName：milo
 - 当前 handle：@milo_reed_vt
 - 主页链接：https://x.com/milo_reed_vt
-- 资产状态：位置已预留，素材未定稿
+- 资产状态：v1 候选已生成，待人工筛选 / 复生成
 
 ## 存储位置
 
 | 类型 | 路径 | 用途 | 状态 |
 | --- | --- | --- | --- |
-| 头像 | `assets/avatar/` | 工程师 / builder 头像候选 | 待补 |
-| Banner | `assets/banner/` | build in public、产品过程、系统草图 | 待补 |
+| 头像 | `assets/avatar/` | 工程师 / builder 头像候选 | 已生成 `milo-avatar-v1.png` |
+| Banner | `assets/banner/` | build in public、产品过程、系统草图 | 已生成 `milo-banner-v1.png` |
 | 主页截图 | `assets/profile-screenshots/` | 主页版本记录和样本截图 | 待补 |
 | 主页文案 | 本文件 | bio、tagline、Pinned Post 方向 | 待定 |
+
+## v1 图片候选
+
+- 头像：半写实工程师侧脸，暗色工作环境，背景有轻量架构线条。
+- Banner：暗色代码窗口 + 架构草图 + 手写 trade-off 注释，避免赛博感，偏认真搭系统的人。
 
 ## 初始主页信息
 
