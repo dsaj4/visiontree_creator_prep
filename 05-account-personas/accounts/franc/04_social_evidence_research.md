@@ -1,7 +1,7 @@
-# Eli Rowan 社媒例证调研
+# franc_chan 社媒例证调研
 
 - 当前状态：待启动
-- 调研目标：寻找真实 X 上概念作者、慢思考 thread、技术哲学类账号，验证 Eli 的概念化表达。
+- 调研目标：寻找真实 X 上概念作者、慢思考 thread、技术哲学类账号，验证 franc 的概念化表达。
 - 截图目录：`assets/profile-screenshots/`
 
 ## 候选样本方向

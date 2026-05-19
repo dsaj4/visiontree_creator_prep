@@ -1,11 +1,12 @@
-# Eli Rowan 人设卡
+# franc_chan 人设卡
 
-- accountName：eli
-- displayName：Eli Rowan
+- accountName：franc
+- displayName：franc_chan
 - role：负责人：陈政霖
 - platform：X
-- handle：@eli_rowan_vt
-- profileUrl：https://x.com/eli_rowan_vt
+- loginEmail：dsaj01@outlook.com
+- handle：@franc_chany
+- profileUrl：https://x.com/franc_chany
 - positioning：造概念的慢思考号
 - personaRole：为 VisionTree 叙事造第一个月的主推概念词，用少量深帖建立思想密度。
 - voice：慢 / 稳 / 有思想密度 / 不用感叹号
@@ -28,10 +29,10 @@
 
 ## 人设升级记录
 
-人设升级记录见 `03_persona_evolution_log.md`。当前版本为 v0.1 初始化，尚未经过真实 X 例证验证。
+人设升级记录见 `03_persona_evolution_log.md`。当前版本为 v0.2 账号替换，继承原 Eli Rowan 的慢概念人设，尚未经过真实 X 例证验证。
 
 ## 同步状态
 
-- 同步到个人主页：待判断
-- 最近更新原因：按 `content-system` 现有人设字段初始化独立工作区。
-- 影响字段：全部 persona 字段。
+- 同步到个人主页：已同步
+- 最近更新原因：franc 替代原 Eli Rowan，保持七账号矩阵不扩容。
+- 影响字段：accountName / displayName / loginEmail / handle / profileUrl / 相关计划 owner。

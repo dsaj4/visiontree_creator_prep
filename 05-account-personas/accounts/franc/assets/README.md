@@ -1,4 +1,4 @@
-# Eli Rowan 资产目录
+# franc_chan 资产目录
 
 用于存放该账号的 X 主页资产和版本截图。
 
@@ -9,7 +9,7 @@
 命名建议：
 
 ```text
-2026-05-10-eli-avatar-v01.png
-2026-05-10-eli-banner-v01.png
-2026-05-10-eli-profile-before.png
+2026-05-19-franc-avatar-v01.png
+2026-05-19-franc-banner-v01.png
+2026-05-19-franc-profile-before.png
 ```

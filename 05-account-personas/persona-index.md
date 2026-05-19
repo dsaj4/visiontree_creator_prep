@@ -12,7 +12,7 @@
 | `milo` | Milo Reed | 工程师号 / 产品建设者 | `accounts/milo/` | 已预留 | v0.1 已初始化 | 待启动 | 待判断 |
 | `ai-doubt` | AI Doubt Notes | 反 AI 怀疑者 / 公开怀疑笔记 | `accounts/ai-doubt/` | 已预留 | v0.1 已初始化 | 待启动 | 待判断 |
 | `nora` | Nora Blake | 普通人试用号 / 非技术用户 | `accounts/nora/` | 已预留 | v0.1 已初始化 | 待启动 | 待判断 |
-| `eli` | Eli Rowan | 造概念的慢思考号 | `accounts/eli/` | 已预留 | v0.1 已初始化 | 待启动 | 待判断 |
+| `franc` | franc_chan | 造概念的慢思考号 | `accounts/franc/` | 已预留 | v0.2 已替换 Eli | 待启动 | 已同步 |
 | `thinking-tree` | The Thinking Tree | 一棵会说话的树 | `accounts/thinking-tree/` | 已预留 | v0.1 已初始化 | 待启动 | 待判断 |
 | `visiontree` | VisionTree | 官方号 / 叙事收拢 | `accounts/visiontree/` | 已预留 | v0.1 已初始化 | 待启动 | 待判断 |
 

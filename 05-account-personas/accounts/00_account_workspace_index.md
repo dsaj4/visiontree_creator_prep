@@ -12,7 +12,7 @@
 | `milo` | `milo/` | v0.1 | 工程取舍、产品建设、技术可信度 |
 | `ai-doubt` | `ai-doubt/` | v0.1 | 反 AI 神话、认知外包观察、短评 |
 | `nora` | `nora/` | v0.1 | 普通人试用、真实困惑、非技术入口 |
-| `eli` | `eli/` | v0.1 | 慢概念、默认假设、思想密度 |
+| `franc` | `franc/` | v0.2 | 慢概念、默认假设、思想密度 |
 | `thinking-tree` | `thinking-tree/` | v0.1 | 树的隐喻、长期认知沉淀、矩阵互动 |
 | `visiontree` | `visiontree/` | v0.1 | 官方定义、叙事收拢、矩阵转发 |
 
