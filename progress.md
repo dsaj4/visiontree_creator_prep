@@ -1,13 +1,14 @@
 # 创作前准备进度
 
-更新时间：2026-05-11
+更新时间：2026-05-25
 
 | 模块 | 状态 | 当前目标 | 文件 |
 | --- | --- | --- | --- |
 | 来源索引 | 待开始 | 梳理可用上游资料与可信来源 | `01-source-materials/source-index.md` |
 | 素材卡 | 待开始 | 将素材转成创作者可用卡片 | `02-asset-cards/asset-card-index.md` |
-| 模板库 | 进行中 | 已新增并同步网页视频演示模板和 GPT Image 2 视觉生成工具介绍卡片，继续补齐账号差异化模板 | `03-template-library/template-index.md` |
+| 模板库 | 进行中 | 已新增模板库改造方案，并将劳动教育结课报告网页视频整理为 `web-video-presentation` 最新示例 | `03-template-library/template-index.md` |
 | 创作者简报 | 待开始 | 为人工创作者准备创作前 brief | `04-creator-briefs/brief-index.md` |
+| 计划修改 | 进行中 | 已新增计划修改目录，并同步 2026-05-26 人设建立计划；不创建内容草稿 | `06-plan-changes/` |
 | 账号人设 | 已初始化 | 已补齐 7 个账号工作区、人设卡、主页资产位置、人设演化空间和例证更新工作流 | `05-account-personas/persona-index.md` |
 | 兼容同步 | 待开始 | 确保产物可同步到素材池、模板库、个人主页 | `references/content-system-compatibility.md` |
 
@@ -28,6 +29,41 @@
 - `03-template-library/` 已从 ConardLi/garden-skills 引入 `gpt-image-2`，整理为 `tool-garden-gpt-image-2`。
 - 两个新增产物均已作为介绍卡片同步到 `content-system` 模板库；真实工具说明仍保留在准备区，后续补真实案例截图。
 - 后续工作规范：`03-template-library` 载入真实工具，`content-system` 同步介绍卡片，卡片必须写明使用边界、适用范围、操作方式和案例截图待补位置。
+
+2026-05-17 更新：
+
+- `03-template-library/template-library-upgrade-plan.md` 已确定模板库下一步采用“创作者运行手册版”：模板正文保留可同步字段，真实案例沉淀到 `examples/`。
+- 已阅读并整理 `C:\Users\Administrator\Documents\New project` 劳动教育结课报告网页视频项目，提炼为 `case-labor-education-web-video`。
+- 已为 `tpl-garden-web-video-presentation` 补齐使用边界、运行效果、使用方法和最新案例引用。
+- 已复制案例截图到 `03-template-library/examples/labor-education-web-video/screenshots/`，用于后续同步到 `content-system` 模板卡资源。
+- 本次影响模块：模板库。`content-system` 可后续同步模板卡的 `notes` 和 `resources`，完整案例继续保留在准备区。
+
+2026-05-17 追加更新：
+
+- 已细化 `references/content-system-compatibility.md` 中模板库前端展示映射，明确列表卡、详情页、`notes` 前缀、`resources` 和展示顺序。
+- 已为 `tpl-garden-web-video-presentation` 增加 `content-system 展示映射`，把模板字段转成前端可展示的创作者友好文案。
+- 已同步更新 `content-system/server/api.mjs` 中网页视频工具卡种子数据，前台可展示准备输入、使用边界、操作方式、运行效果、验收方式和劳动教育最新案例资源。
+
+2026-05-17 实现更新：
+
+- 已修改 `content-system/src/App.tsx`，模板详情页改为专用创作者展示页，按 `notes` 前缀分组为“创作者快速判断 / 开始使用 / 运行效果与验收 / 真实案例与来源”。
+- 已修改 `content-system/src/styles.css`，补齐桌面和移动端布局，确保长中文说明、英文链接和资源标题可换行展示。
+- 本次影响模块：模板库前端展示。未改变数据库表结构；素材详情页继续使用原通用详情页。
+- 后续填写要求：新增模板必须用 `适用范围：`、`准备输入：`、`使用边界：`、`操作方式：`、`运行效果：`、`验收方式：`、`最新案例：`、`同步边界：` 前缀填写 `notes`。
+
+2026-05-25 更新：
+
+- 已新增 `06-plan-changes/`，用于存储计划修改记录和 agent 计划修改规范。
+- 已新增 `06-plan-changes/2026-05-25-2026-05-26-persona-establishment.md`，把 2026-05-26 09:00 前的 6 个账号任务整理为计划修改记录。
+- 本次影响模块：`content-system` 计划日历。只更新计划，不创建内容库草稿，不写真实发布数据。
+
+2026-05-25 实现更新：
+
+- 已修改 `content-system` 创作台：当前素材和当前模板均可为空，创作者可直接生成草稿、手写草稿并存入内容池。
+- 已修改 `content-system` 后端：`contents.asset_id` / `contents.template_id` 支持为空；旧 SQLite 会自动迁移；未绑定草稿返回“未选择素材 / 未选择模板”，不计入素材或模板引用次数。
+- 已修改 `content-system` 创作台待执行计划和计划日历：计划数量过多时，待执行列表、发布计划板、清单视图和已发布内容列表均可滚动查看。
+- 已同步更新 `content-system/docs/API_INTEGRATION.md` 和 `content-system/docs/CONTENT_AGENT_BRIEF.md`，说明空白草稿、可空素材/模板、引用统计边界和正式发布前的追溯建议。
+- 本次影响模块：创作台、计划日历、内容池记录 API。没有写入真实发布数据；验证用草稿已删除。
 
 工作重点：
 

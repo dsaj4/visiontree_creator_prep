@@ -38,6 +38,36 @@
   - `skills/web-video-presentation/references/CHAPTER-CRAFT.md`
   - `skills/web-video-presentation/references/AUDIO.md`
   - `skills/web-video-presentation/references/RECORDING.md`
+- 使用边界：
+  - 适合：有完整文章、口播稿、报告或产品说明，且内容需要逐步展开成视频化讲解。
+  - 适合：有真实截图、产品画面、照片、图表或可生成的视觉素材，能让每个 step 有明确视觉锚点。
+  - 慎用：只有一句主题、没有论证材料、案例或素材清单时，应先补资料。
+  - 不适合：纯公告、纯口号、纯营销落地页，或需要复杂业务交互的应用页面。
+- 运行效果：
+  - 产物是 1920×1080 固定 16:9 网页舞台，点击、方向键或自动模式推进。
+  - 观感应像为录屏设计的视频舞台，不像传统 PPT，也不应像营销页。
+  - 典型项目包含 `script.md`、`outline.md`、`storyboard.md`、`style-guide.md`、素材清单、网页工程和验收截图。
+  - 好结果的信号：每一步只表达一个想法，视觉锚点随口播节拍变化，第一章能独立作为风格样板。
+- 使用方法：
+  1. 先判断素材是否值得视频化：是否有清晰叙事、信息层次和视觉素材。
+  2. 将原文改成自然口播稿，保留原文作为细节来源。
+  3. 产出章节 outline，明确每章的 step、素材和信息密度。
+  4. 先确认主题、视觉方向和第 1 章样板。
+  5. 再开发完整 Vite + React + TypeScript 演示。
+  6. 完成后用桌面和移动端截图验收，再决定是否合成音频或录屏。
+- 最新案例：
+  - `examples/labor-education-web-video/README.md`
+  - 案例说明：把劳动教育结课报告做成 9 章点击驱动网页演示，包含口播稿、提词台本、章节规划、分镜、视觉风格、素材清单、网页工程和截图。
+  - 截图：`examples/labor-education-web-video/screenshots/desktop-opening.png`、`mobile-opening.png`、`mobile-current.png`、`theory-scene.png`
+- content-system 展示映射：
+  - `title`：网页视频演示工具卡
+  - `format`：网页视频 / 工具流程
+  - `hook`：把文章、口播稿或产品说明变成可录屏的 16:9 点击驱动网页演示。
+  - `structure`：判断素材 -> 准备输入 -> 拆口播节拍 -> 做第 1 章样板 -> 完整制作与录屏
+  - `length`：3-8 分钟视频；4-8 章；每个 step 只承载一个想法。
+  - `notes` 分组：适用范围、准备输入、使用边界、操作方式、运行效果、验收方式、最新案例、同步边界。
+  - `resources` 重点：原始 Skill、来源视频、劳动教育网页视频案例和案例截图。
+  - 前端展示目标：列表卡片帮助创作者判断“能不能套用”，详情页帮助创作者判断“怎么开始、会做成什么、哪里容易跑偏”。
 - 语气：克制、清晰、有画面感；像认真做过分镜的产品 talk，不像模板化幻灯片。
 - 禁忌：
   - 不把 VisionTree 写成已经成熟的“自动思考”产品。
@@ -56,4 +86,4 @@
   - 哪些素材必须是真实截图 / 产品画面，哪些可以用 placeholder。
   - 是否需要合成音频，还是交给创作者真人录音。
 - 同步到模板库：已同步
-- 最近更新原因：2026-05-11 已作为介绍卡片同步到 `content-system` 模板库；保留完整工具说明在准备区，后续补真实案例截图。
+- 最近更新原因：2026-05-17 已根据 `C:\Users\Administrator\Documents\New project` 劳动教育结课报告网页视频案例补齐使用边界、运行效果、使用方法和最新案例截图；2026-05-11 已作为介绍卡片同步到 `content-system` 模板库。
